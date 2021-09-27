@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box !important;
+}
+
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat-Black';
+}
+
+/* heading */
+.bighead {
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.Price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.test-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.sec-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+.headf {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* sections */
+.color-s {
+  background-color: #2A0944;
+  color: #FFF;
+}
+
+.white-s {
+  background-color: #fff;
+}
+
+/* title section */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 8% 15%;
+}
+
+#email {
+  width: 70%;
+}
+
+
+/* Navigation Bar */
+#nav-bar {
+  background-color: #3B185F;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  position: fixed;
+}
+
+.nav-item {
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.25rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* video iframe */
+.vid-responsive {
+  margin-left: 10px;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-res iframe {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/* download buttons */
+.downbtn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+#header-img {
+  width: 50%;
+  right: 20%;
+  margin-bottom: 10%;
+}
+
+/* features */
+#features {
+  position: relative;
+}
+
+.featb {
+  padding: 5%;
+}
+
+.feati {
+  color: #A12568;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #3B185F;
+}
+
+.paraf {
+  color: #8f8f8f;
+}
+
+/* testonimals */
+#testimonials {
+  background-color: #3B185F;
+}
+
+.testimg {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #3B185F;
+  padding-bottom: 3%;
+}
+
+.presig {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pcol {
+  padding: 3% 2%;
+}
+
+/* Call to Action  */
+/* footer */
+#footer {
+  background-color: #fff;
+}
+
+.footi {
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  margin-bottom: 3%;
+  color: grey;
+}
+
+@media (max-width: 1028px) {
+  #header-img {
+    position: static;
+    margin-right: 80px;
+  }
+
+
+  #title-sec {
+    text-align: center;
+    margin-top: 15%;
+  }
+
+}
